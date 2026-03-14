@@ -1,0 +1,33 @@
+# Streamlit for UI
+
+streamlit==1.25.0
+
+# LangChain for chains and RetrievalQA
+
+langchain==0.1.0
+
+# LangChain community extras: PDF loaders, FAISS integration, Ollama wrapper
+
+langchain-community==0.0.21
+
+# FAISS CPU version for vector storage
+
+faiss-cpu==1.7.4
+
+# HuggingFace for embeddings
+
+huggingface-hub==0.17.4
+transformers==4.33.1
+
+# Optional dependencies for Ollama LLM (ensure Ollama is installed on your system)
+
+ollama==0.1.0
+
+# Utilities
+
+numpy>=1.25.0
+tqdm>=4.66.1
+
+## LLama model
+
+llama3.2
